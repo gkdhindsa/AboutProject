@@ -1,0 +1,43 @@
+body{
+    margin-top: 5%;
+    background-color: #ea5455;
+    
+}
+h1{
+    font-family: 'Cabin', sans-serif;
+    font-size: 3rem;
+    
+}
+p{
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 1.5rem;
+}
+.heading-box{
+    width: 100%;
+    background-color: #ffd460;
+    padding: 2% 0 2%;  
+    text-align: center;
+} 
+
+.heading-text{
+}
+.earth-image-outer{
+    width: 100%;
+}
+.earth-image{
+
+    -webkit-animation: earth-anim 4s linear;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes earth-anim{
+    0%{
+        transform: rotate(0deg) scale(.5);
+        
+    }
+    100%{
+
+        transform: rotate(360deg) scale(1);
+        
+    }
+}
