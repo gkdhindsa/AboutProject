@@ -1,12 +1,19 @@
 body{
-    margin-top: 5%;
-    background-color: #ea5455;
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f6f7d7;
 }
 h1{
     font-family: 'Cabin', sans-serif;
     font-size: 3rem;
     
+}
+h2{
+    font-family: 'Caveat', cursive;
+    
+    font-style: italic;
+    font-size: 2rem;
 }
 p{
     font-family: 'Dawning of a New Day', cursive;
@@ -14,13 +21,12 @@ p{
 }
 .heading-box{
     width: 100%;
-    background-color: #ffd460;
+    background-color: #f07b3f;
     padding: 2% 0 2%;  
     text-align: center;
+    margin-top: 5%;
+    border-bottom: 2em solid #ffd460;
 } 
-
-.heading-text{
-}
 .earth-image-outer{
     width: 100%;
 }
@@ -40,4 +46,25 @@ p{
         transform: rotate(360deg) scale(1);
         
     }
+}
+
+/* Card */
+.outer-polaroid{
+    padding: 5% 1% 0;
+    display: inline-block;
+    background-color: whitesmoke;
+    margin: 5% ;
+}
+
+.inner-polaroid{
+    text-align: center;
+}
+.polaroid-text{
+    margin-top: 10%;
+    line-height: 0.5em;
+}
+.column-polaroid{
+   justify-content: center;
+   text-align: center;
+   background-color: #ffd460;
 }
