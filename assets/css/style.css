@@ -67,3 +67,16 @@ p{
    text-align: center;
    background-color: #aeefec;
 }
+
+/*Header*/
+.nav-brand{
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 1.2rem;
+    color: black;
+}
+#section-1{
+    background-color: #f78259;
+}
+
+
+/*Footer*/
