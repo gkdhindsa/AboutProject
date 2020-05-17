@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f6f7d7;
+    background-color: #f8eeee;
 }
 h1{
     font-family: 'Cabin', sans-serif;
@@ -21,11 +21,10 @@ p{
 }
 .heading-box{
     width: 100%;
-    background-color: #f07b3f;
-    padding: 2% 0 2%;  
+    background-color: #f78259;
+    padding: 5% 0 2%;  
     text-align: center;
-    margin-top: 5%;
-    border-bottom: 2em solid #ffd460;
+    /*border-bottom: 2em solid #eb4559;*/
 } 
 .earth-image-outer{
     width: 100%;
@@ -66,5 +65,5 @@ p{
 .column-polaroid{
    justify-content: center;
    text-align: center;
-   background-color: #ffd460;
+   background-color: #aeefec;
 }
