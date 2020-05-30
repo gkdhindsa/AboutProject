@@ -80,3 +80,8 @@ p{
 
 
 /*Footer*/
+.footer{
+    padding-top: 1%;
+    text-align: center;
+    background-color: #ea5455;
+}
