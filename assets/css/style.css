@@ -54,6 +54,10 @@ p{
     background-color: whitesmoke;
     margin: 5% ;
 }
+.outer-polaroid:hover{
+    transform: scale(1.05);
+  
+}
 
 .inner-polaroid{
     text-align: center;
