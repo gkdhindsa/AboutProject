@@ -10,4 +10,5 @@ window.onscroll = function() {
         v.src='';
     }
 }
+window.onload(document.querySelector(".loader").style.display="none");
 
