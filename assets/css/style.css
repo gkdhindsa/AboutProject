@@ -4,6 +4,12 @@ body{
     box-sizing: border-box;
     background-color: #f8eeee;
 }
+.row{
+    justify-content: center;
+}
+.row .column-polaroid{
+    justify-content: center;
+}
 
 img{
     max-width: 90%;
