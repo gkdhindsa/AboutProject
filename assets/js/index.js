@@ -6,8 +6,8 @@ window.onload=removeLoader;
 //
 
 //slider
-let text = ['Some text about the photo', 'Some random text about the photo', 'Some random text about the photo', 'Some random text about the photo',
-     'Some random text about the photo', 'Some random text about the photo', 'Some random text about the photo', 'Some random text about the photo'];
+let text = ['Pineapple upside down cake', 'Spaghetti', 'Alfredo pasta', 'Moist lemon cake with buttercream frosting',
+     'Bread rolls', 'Vanilla cake with caramel sauce', 'Lasagna and ginger ale', 'Pav Bhaji', 'Lemon bars', 'Pan fried garlic fish'];
 let value;
 
 
@@ -45,3 +45,24 @@ document.querySelector('.right').addEventListener('click', function(){
     }
     slider(value);
 })
+
+document.onkeydown = checkKey;
+
+function checkKey(e) {
+
+    if (e.keyCode == '37') {
+        value--;
+        if(value<1){
+            value=8;
+        }
+        slider(value);
+    }
+    else if (e.keyCode == '39') {
+        value++;
+        if(value>8){
+            value=1;
+        }
+        slider(value);
+    }
+
+}

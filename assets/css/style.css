@@ -25,6 +25,8 @@ h2{
 p{
     font-family: 'Dawning of a New Day', cursive;
     font-size: 1.5rem;
+    line-height: 1;
+    text-align: center;
 }
 .heading-box{
     width: 100%;
@@ -36,11 +38,13 @@ p{
 } 
 .earth-image-outer{
     width: 100%;
+    padding-bottom: 1em;
 }
 .earth-image{
 
     -webkit-animation: earth-anim 4s linear;
     animation-fill-mode: both;
+
 }
 
 @-webkit-keyframes earth-anim{
@@ -61,6 +65,7 @@ p{
     background-color: whitesmoke;
     margin: 2em 1em;
     position: relative;
+    max-width: 250px;
 }
 .img:hover{
     transform: scale(1.05); 
@@ -74,7 +79,7 @@ p{
     line-height: 0.5em;
 }
 .column-polaroid{
-   
+    position: relative;
    background-color: #aeefec;
 }
 
